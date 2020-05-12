@@ -1,0 +1,38 @@
+body{
+    background-color:black;
+  }
+  
+  .site-title,
+  .site-subtitle{
+    color:whitesmoke;
+    font-family:Courier New;
+    text-align:center;
+    
+  }
+  
+  .site-subtitle{
+    font-style:italic;
+  }
+  
+  a{
+    font-family:Helvetica;
+    color:black;
+    text-decoration:none;
+  }
+  
+  a:hover {
+    text-decoration:underline;
+  }
+  
+  .menu{
+    background-color:slategray;
+  }
+  .menu ul
+  {
+    display:flex;
+    justify-content:space-around;
+   }
+  
+  .menu li{
+    list-style:none;
+  }
